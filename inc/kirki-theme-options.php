@@ -174,7 +174,19 @@ Kirki::add_field(
 		),
 	)
 );
-
+/**
+ * Siticky Sidebar
+*/
+Kirki::add_field(
+	'deft_config', array(
+		'type'        => 'toggle',
+		'settings'    => 'deft_sticky_sidebar_option',
+		'label'       => esc_html__( 'Sticky Sidebar', 'deft' ),
+		'description' => esc_html__( 'Make your sidebar stikcy or not.', 'deft' ),
+		'section'     => 'deft_sidebar_section',
+		'default'     => 1,
+	)
+);
 
 /**
  * Deft Social Icons

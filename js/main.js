@@ -44,6 +44,19 @@
     	  jQuery('html, body').animate({scrollTop : 0},800);
     	  return false;
     	});
+			//sticky sidebar
+    var at_body = jQuery("body");
+    var at_window = jQuery(window);
+
+   if(at_body.hasClass('pt-sticky-sidebar')){
+            if(at_body.hasClass('carousel-inner')){
+                jQuery('#secondary, #primary').theiaStickySidebar();
+            }
+            else{
+                jQuery('#secondary, #primary').theiaStickySidebar();
+            }
+        }			
+			
     });
 
 })(jQuery);

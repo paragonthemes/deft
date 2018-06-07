@@ -49,6 +49,8 @@ Deft includes support for Infinite Scroll in Jetpack.
 * WP Bootstrap Navwalker - GNU GENERAL PUBLIC LICENSE https://github.com/wp-bootstrap/wp-bootstrap-navwalker/blob/master/LICENSE.txt
 * Kirki - The MIT License (MIT) Copyright (c) 2017 Aristeides Stathopoulos https://github.com/aristath/kirki/blob/develop/LICENSE
 * Animate CSS - Copyright (c) 2013 Daniel Eden http://daneden.me/animate [ Licensed under the MIT license ]
+* theia-sticky-sidebar https://github.com/WeCodePixels/theia-sticky-sidebar [MIT](http://opensource.org/licenses/MIT)
+
 
 == Image License == 
 https://www.pexels.com/photo/accessory-blur-book-close-up-290043/ [Creative Commons Zero (CC0) License]
