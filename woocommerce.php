@@ -1,31 +1,18 @@
 <?php
-
 /**
-
- * The template for displaying all pages.
-
- * This is the template that displays all pages by default.
-
- * Please note that this is the WordPress construct of pages
-
- * and that other 'pages' on your WordPress site may use a
-
- * different template.
-
+ * File deft.
+ * @package   Deft
+ * @author    Paragon Themes <info@paragonthemes.com>
+ * @copyright Copyright (c) 2018, Paragon Themes
+ * @link      http://www.paragonthemes.com/themes/deft
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html
  *
-
- * @link https://codex.wordpress.org/Template_Hierarchy
-
+ * The template for displaying all single posts
  *
-
- * @package Canyon Themes
-
- * @subpackage Better Health
-
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ *
+ * @package Deft
  */
-
-
-
 get_header();
 ?>
 <div id="primary" class="col-md-8 col-sm-8">

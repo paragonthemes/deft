@@ -13,9 +13,7 @@
  *
  * @package Deft
  */
-
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class('post-wrapper'); ?>>
 	<header class="featured-wrapper">
         <div class="post-thumbnail">

@@ -13,7 +13,6 @@
  *
  * @package Deft
  */
-
 get_header();
 ?>	
 	<div class="col-sm-12">

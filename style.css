@@ -1040,7 +1040,9 @@ object {
 ## Main Menu CSS
 
 --------------------------------------------------------------*/
-
+.navbar-menu.empty-menu {
+    margin-top: 27px;
+}
 .navbar-brand {
 	height: auto;
 }
@@ -1536,7 +1538,7 @@ object {
 /* - Slider Section */
 
 .slider-section {
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 .slider-section .carousel-caption {

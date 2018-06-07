@@ -73,7 +73,7 @@ if ( !function_exists('deft_slider') ) :
 								<?php endif; ?>
 								<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 								<?php if(!empty($slider_read_more)): ?>
-								<a href="<?php the_permalink(); ?>" title="Read More"><?php echo $slider_read_more; ?></a>
+								<a href="<?php the_permalink(); ?>" title="<?php esc_attr_e('Read More', 'deft');?>"><?php echo $slider_read_more; ?></a>
 								<?php endif; ?>
 							</div>
 						</div>
@@ -81,16 +81,22 @@ if ( !function_exists('deft_slider') ) :
 				<?php } $i++; endwhile; wp_reset_postdata(); endif; ?>
 
 				</div>
+				<?php
+					$category = get_category($slider_cat_id);
+					$count = $category->category_count;
 
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="fa fa-angle-double-left" aria-hidden="true"></span>
-					<span class="sr-only"><?php esc_html_e('Previous','deft'); ?></span>
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="fa fa-angle-double-right" aria-hidden="true"></span>
-					<span class="sr-only"><?php esc_html_e('Next','deft'); ?></span>
-				</a>
+					if( $count > 1 ) { ?>
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="fa fa-angle-double-left" aria-hidden="true"></span>
+							<span class="sr-only"><?php esc_html_e('Previous','deft'); ?></span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="fa fa-angle-double-right" aria-hidden="true"></span>
+							<span class="sr-only"><?php esc_html_e('Next','deft'); ?></span>
+						</a>					    
+				<?php } 
+				?>
 			</div>
 	</div><!-- Container /- -->
 </div><!-- Slider Section /- -->
@@ -235,7 +241,7 @@ function deft_custom_class($classes)
 if (!function_exists('deft_go_to_top' )) :
     function deft_go_to_top()
     {
-         $deft_to_top = get_theme_mod( 'deft_footer_go_to_top', 1);                 
+         $deft_to_top = absint(get_theme_mod( 'deft_footer_go_to_top', 1));                 
          if( $deft_to_top == 1 )
          {
             ?>

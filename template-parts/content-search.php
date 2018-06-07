@@ -13,9 +13,8 @@
  *
  * @package Deft
  */
-
+ $read_more = esc_html( get_theme_mod( 'deft_blog_read_more_options', 'Read More') );
 ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class('post-wrapper'); ?>>
 	<header class="featured-wrapper">
 		<ul class="post-meta list-inline">
@@ -55,9 +54,11 @@
 		</div><!-- .entry-content -->
 
 		<footer class="entry-footer">
+			<?php if( !empty( $read_more)){ ?>
 			<a class="more-link" href="<?php the_permalink(); ?>">
-				<?php echo esc_html('Read More') ?>  <i class="fa fa-angle-double-right"></i>
+				<?php echo esc_html($read_more); ?>  <i class="fa fa-angle-double-right"></i>
 			</a>
+			<?php } ?>
 		</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
 
