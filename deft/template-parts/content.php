@@ -23,7 +23,10 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('post-wrapper'); ?>>
 	<header class="featured-wrapper <?php echo esc_attr($blog_full_image); ?>">
 		        <div class="post-thumbnail">
-					<?php the_post_thumbnail( 'small' ); ?>
+		        	<?php if($blog_featured_image == 1 ) {
+						the_post_thumbnail( 'small' );
+					} 
+					?>
 				</div>
 		<?php if($blog_meta == 1 ){  ?>
 			<ul class="post-meta list-inline">
