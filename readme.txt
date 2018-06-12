@@ -13,7 +13,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 Requires at least: 4.8
 Tested up to: 4.9.5
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,6 +35,10 @@ Deft includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
 
+= 1.0.1 - June 07 2018 =
+* Sticky Sidebar Added
+* Some CSS issues fixed
+
 = 1.0.0 - May 31 2018 =
 * Initial release
 
@@ -54,4 +58,5 @@ Deft includes support for Infinite Scroll in Jetpack.
 
 == Image License == 
 https://www.pexels.com/photo/accessory-blur-book-close-up-290043/ [Creative Commons Zero (CC0) License]
-https://www.pexels.com/photo/woman-holding-book-864938/ [Creative Commons Zero (CC0) License]
+https://pixabay.com/en/woman-beautiful-lifestyle-young-3046960/ [Creative Commons Zero (CC0) License]
+https://pixabay.com/en/hand-man-watch-glasses-work-1076597/ [Creative Commons Zero (CC0) License]

@@ -22,7 +22,7 @@
 get_header();
 ?>
 	<div id="primary" class="col-md-8 col-sm-8">
-		<div class="content-area">
+		<div id="main" class="content-area">
 			<?php
 			if ( have_posts() ) :
 				if ( is_home() && ! is_front_page() ) :

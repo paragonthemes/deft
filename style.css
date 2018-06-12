@@ -4,7 +4,7 @@ Theme URI:
 Author: paragonthemes
 Author URI: https://paragonthemes.com
 Description: Perfect WordPress theme for Bloggers. 
-Version: 1.0.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: deft
@@ -1665,12 +1665,19 @@ object {
 		font-size: 12px;
 	}
 	.slider-section .carousel-caption .slide-content>h3 {
-		font-size: 18px;
-		line-height: auto;
+		font-size: 14px;
+		line-height: 19px;
+		margin-bottom: 5px;
 	}
 	.slider-section .carousel-caption .slide-content>a {
 		padding: 6px 12px;
 		font-size: 11px;
+	}
+	.slider-section .carousel-caption .slide-content .post-meta{
+		display: none; 
+	}
+	nav.navbar.bootsnav .navbar-toggle{
+		margin-top: 16px; 
 	}
 }
 
@@ -2521,16 +2528,14 @@ p[class*='comment-form-'] {
 	right: 15px;
 	padding: 0px 15px;
 	font-size: 40px;
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 }
 
-.gotop {
-	display: block;
-	transform: rotate(-90deg);
-}
 
-.gotop span {
-	padding-left: 30px;
+.gotop span i {
+    padding: 10px;
+    background: #333;
+    border-radius: 3px;
 }
 
 /*==============================
@@ -3072,5 +3077,36 @@ input#coupon_code {
 }
 
 /*==============================
-# Responsive Starts
+# Jetpack Top Post Widget Image Size
 ===============================*/
+@media screen and (max-width: 767px) {
+	.post-wrapper {
+		padding: 20px 
+	}
+}
+
+.widget_top-posts .widgets-list-layout li > a {
+    width: 40%;
+} 
+ 
+.widget_top-posts .widgets-list-layout img.widgets-list-layout-blavatar {
+    max-width: 240px;
+    width: 100%;
+}
+ 
+.widget_top-posts .widgets-list-layout div.widgets-list-layout-links {
+    max-width: 100%;
+    width: 55%;
+}
+ 
+@media only screen and (max-width: 1019px) {
+ 
+    .widget_top-posts ul.widgets-list-layout {
+        max-width: 600px;
+        margin: 0 auto;
+    } 
+ 
+    .widget_top-posts .widgets-list-layout div.widgets-list-layout-links {
+        font-size: 24px;
+    }
+}

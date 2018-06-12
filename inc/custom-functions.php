@@ -246,7 +246,7 @@ if (!function_exists('deft_go_to_top' )) :
          {
             ?>
             <a id="toTop" class="go-to-top" href="#" title="<?php esc_attr_e('Go to Top', 'deft'); ?>">
-                    <span><?php echo esc_html_e('Go To Top', 'deft');?> <i class="fa fa-arrow-right"></i></span>
+                    <span><i class="fa fa-arrow-up"></i></span>
             </a>
         <?php
         }
@@ -254,3 +254,17 @@ if (!function_exists('deft_go_to_top' )) :
 
 add_action('deft_go_to_top_hook', 'deft_go_to_top', 20 );
 endif;
+
+/**
+ * Jetpack Top Posts widget Image size
+ * @since Deft 1.0.0
+ *
+ * @param null
+ * @return void
+*/
+function deft_custom_thumb_size( $get_image_options ) {
+        $get_image_options['avatar_size'] = 600;
+ 
+        return $get_image_options;
+}
+add_filter( 'jetpack_top_posts_widget_image_options', 'deft_custom_thumb_size' );
