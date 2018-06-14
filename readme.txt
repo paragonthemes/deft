@@ -19,7 +19,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
-Perfect WordPress theme for Bloggers. 
+A simple and minimal WordPress theme Deft is perfect for Bloggers. You can use this theme on any type of blogs like technology, food and drinks, travel, biography and many more. You can use this theme for magazine and news site as well. Deft comes with amazing slider section, sticky sidebar, WooCommerce compatible and many more. It is compatible with Jetpack Infinite Scroll and Jetpack Top Post Widget. There are various theme options available to manage your site. You can customize slider section, sidebar section, copyright section, go to top section etc. In addition, this theme has breadcrumb option, blog page options, the full image in the blog page, meta options, excerpt length etc. If you are looking for more features, you can go with the premium version. Demo: http://demo.paragonthemes.com/deft/
 
 == Installation ==
 
@@ -34,6 +34,11 @@ Perfect WordPress theme for Bloggers.
 Deft includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
+= 1.0.2 - June 14 2018 =
+* Jetpack Infinite Scroll Fixed
+* Screenshot Changed
+* Fixes minor design issues
 
 = 1.0.1 - June 07 2018 =
 * Sticky Sidebar Added
