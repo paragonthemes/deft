@@ -13,7 +13,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 
 Requires at least: 4.8
 Tested up to: 4.9.5
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,11 +34,11 @@ A simple and minimal WordPress theme Deft is perfect for Bloggers. You can use t
 Deft includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
-
 = 1.0.2 - June 14 2018 =
 * Jetpack Infinite Scroll Fixed
 * Screenshot Changed
 * Fixes minor design issues
+* Post Templates added
 
 = 1.0.1 - June 07 2018 =
 * Sticky Sidebar Added

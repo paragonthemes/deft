@@ -28,7 +28,6 @@
 
 <body <?php body_class(); ?>>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'deft' ); ?></a>
-
 	<header id="masthead" class="site-header">
 		    <!-- Main Menu -->
             <nav class="main-menu navbar navbar-default bootsnav">
@@ -122,11 +121,19 @@
 			</nav>
 	</header><!-- #masthead -->
 
-	<div id="content" class="blog-wrapper">
+	
 		<div class="container">
 			<div class="row">
 				<!-- Slider Section -->
 				<?php 
 					if(is_home() || is_front_page () && !is_paged() ) {
 						do_action('deft_slider_hook'); 
-					}	
+					 }?> 
+                       </div>
+               </div>
+       
+<div id="content" class="blog-wrapper">
+		<div class="container">
+			<div class="row">
+
+                    
