@@ -155,15 +155,15 @@ function deft_scripts() {
     /*Animited CSS*/
     wp_enqueue_style( 'animate', get_template_directory_uri() . '/css/animate.css', array(), '4.5.0' );
     
-    wp_enqueue_style( 'bootsnav', get_template_directory_uri() . '/css/bootsnav.css', array(), '4.5.0' );
+    wp_enqueue_style( 'deft-bootsnav', get_template_directory_uri() . '/css/bootsnav.css', array(), '4.5.0' );
     
 	wp_enqueue_style( 'deft-style', get_stylesheet_uri() );
 
 	/*Bootstrap JS*/
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '4.6.0' );
-    wp_enqueue_script( 'bootsnav', get_template_directory_uri() . '/js/bootsnav.js', array('jquery'), '4.5.0' );
+    wp_enqueue_script( 'deft-bootsnav', get_template_directory_uri() . '/js/bootsnav.js', array('jquery'), '4.5.0' );
 
-	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array('jquery'), '4.5.0' );
+	wp_enqueue_script( 'deft-main', get_template_directory_uri() . '/js/main.js', array('jquery'), '4.5.0' );
 	
 	wp_enqueue_script( 'deft-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true 	);
 
