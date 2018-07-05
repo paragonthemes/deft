@@ -15,6 +15,11 @@
  */
 get_header();
 ?>
+<div class="col-sm-12">
+	<div class="breadcrumb">
+		<?php do_action('deft_breadcrumb_hook'); ?>
+	</div>
+</div>
 <div id="primary" class="col-md-8 col-sm-8">
  	<div class="content-area">
     <div class="post-wrapper">

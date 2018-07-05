@@ -9,11 +9,11 @@
 */
 
 Contributors: paragonthemes
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog, news, e-commerce
+Tags: custom-background, one-column, two-column, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog, news, e-commerce
 
 Requires at least: 4.8
 Tested up to: 4.9.5
-Stable tag: 1.0.2
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,11 +34,11 @@ A simple and minimal WordPress theme Deft is perfect for Bloggers. You can use t
 Deft includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
 = 1.0.2 - June 14 2018 =
 * Jetpack Infinite Scroll Fixed
 * Screenshot Changed
 * Fixes minor design issues
-* Post Templates added
 
 = 1.0.1 - June 07 2018 =
 * Sticky Sidebar Added
@@ -59,6 +59,7 @@ Deft includes support for Infinite Scroll in Jetpack.
 * Kirki - The MIT License (MIT) Copyright (c) 2017 Aristeides Stathopoulos https://github.com/aristath/kirki/blob/develop/LICENSE
 * Animate CSS - Copyright (c) 2013 Daniel Eden http://daneden.me/animate [ Licensed under the MIT license ]
 * theia-sticky-sidebar https://github.com/WeCodePixels/theia-sticky-sidebar [MIT](http://opensource.org/licenses/MIT)
+* BreadcrumbTrail Copyright (c) 2008 - 2017, Justin Tadlock https://themehybrid.com/plugins/breadcrumb-trail http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 
 == Image License == 

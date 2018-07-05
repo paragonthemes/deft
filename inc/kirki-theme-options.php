@@ -27,6 +27,14 @@ Kirki::add_config( 'deft_config', array(
 ) );
 
 /**
+ *  About Section
+*/
+Kirki::add_panel( 'deft_theme_options', array(
+	'priority' => 10,
+	'title'    => esc_html__( 'About Theme', 'deft' ),
+) );
+
+/**
  *  Kirki Theme Options Panel in Customizer
 */
 Kirki::add_panel( 'deft_theme_options', array(
