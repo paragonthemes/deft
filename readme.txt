@@ -12,8 +12,8 @@ Contributors: paragonthemes
 Tags: custom-background, one-columns, two-column, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog, news, e-commerce
 
 Requires at least: 4.8
-Tested up to: 4.9.5
-Stable tag: 1.0.3
+Tested up to: 4.9.7
+Stable tag: 1.0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,8 +34,12 @@ A simple and minimal WordPress theme Deft is perfect for Bloggers. You can use t
 Deft includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 1.0.4 - July 09 2018 =
+* Reviewers issues fixed
+* Breadcrumb prefix added
+* Header Image Setting Remove
 
-= 1.0.3 - June 14 2018 =
+= 1.0.3 - July 5 2018 =
 * Post Template Added
 * Upgrade to pro added
 * Fixes minor design issues

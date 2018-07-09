@@ -167,7 +167,7 @@ if ( !function_exists('deft_breadcrumb') ) :
   function deft_breadcrumb() { 
 $breadcrumb = absint(get_theme_mod( 'deft_breadcrumb_options', 1 ));	
 	if( $breadcrumb == 1){
-		breadcrumb_trail();
+		deft_breadcrumb_trail();
 	}
 } endif;
 add_action( 'deft_breadcrumb_hook', 'deft_breadcrumb', 10 );

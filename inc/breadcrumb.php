@@ -30,7 +30,7 @@
  * @param  array $args Arguments to pass to Breadcrumb_Trail.
  * @return string html output.
  */
-function breadcrumb_trail( $args = array() ) {
+function deft_breadcrumb_trail( $args = array() ) {
 	$breadcrumb = apply_filters( 'breadcrumb_trail_object', null, $args );
 	if ( ! is_object( $breadcrumb ) ) {
 		$breadcrumb = new Breadcrumb_Trail( $args );

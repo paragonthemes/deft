@@ -31,7 +31,7 @@
 					?>
     				<img alt="" src="<?php echo $author_img; ?>" class="avatar avatar-40 photo" height="40" width="40">                    
     			</div>
-				<?php esc_html_e('Written By','deft'); ?><a class="url fn n" href="<?php echo esc_url(get_author_posts_url(get_the_author_meta( 'ID' )) ); ?>"><?php echo get_the_author_meta('display_name'); ?></a>                
+				<?php esc_html_e('Written By','deft'); ?><a class="url fn n" href="<?php echo esc_url(get_author_posts_url(get_the_author_meta( 'ID' )) ); ?>"><?php echo esc_html(get_the_author_meta('display_name')); ?></a>                
 			</div>			
 			<?php
 				if ( is_singular() ) :

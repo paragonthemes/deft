@@ -231,6 +231,6 @@ require get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
 /**
  * Loading breadcrumbs File.
  */
-if (!function_exists('breadcrumb_trail') ) {
+if (!function_exists('deft_breadcrumb_trail') ) {
 	require get_template_directory() . '/inc/breadcrumb.php';
 }							

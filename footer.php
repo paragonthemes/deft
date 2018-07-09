@@ -30,7 +30,7 @@
 			?>
 		</div>
 		<div class="copyright">
-			<?php echo get_theme_mod('deft_footer_copyright_text','&copy; All Right Reserved.'); ?>
+			<?php echo esc_html(get_theme_mod('deft_footer_copyright_text','&copy; All Right Reserved.')); ?>
 		</div>
 		<div class="site-info text-center">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'deft' ) ); ?>">

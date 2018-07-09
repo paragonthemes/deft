@@ -13,7 +13,7 @@
  */
 
 /*
- * Class Name: WP_Bootstrap_Navwalker
+ * Class Name: Deft_WP_Bootstrap_Navwalker
  * Plugin Name: WP Bootstrap Navwalker
  * Plugin URI:  https://github.com/wp-bootstrap/wp-bootstrap-navwalker
  * Description: A custom WordPress nav walker class to implement the Bootstrap 3 navigation style in a custom theme using the WordPress built in menu manager.
@@ -27,13 +27,13 @@
 */
 
 /* Check if Class Exists. */
-if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
+if ( ! class_exists( 'Deft_WP_Bootstrap_Navwalker' ) ) {
     /**
-     * WP_Bootstrap_Navwalker class.
+     * Deft_WP_Bootstrap_Navwalker class.
      *
      * @extends Walker_Nav_Menu
      */
-    class WP_Bootstrap_Navwalker extends Walker_Nav_Menu {
+    class Deft_WP_Bootstrap_Navwalker extends Walker_Nav_Menu {
 
         /**
          * Start Level.
