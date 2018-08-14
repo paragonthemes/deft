@@ -13,7 +13,7 @@ Tags: custom-background, one-columns, two-column, custom-logo, custom-menu, feat
 
 Requires at least: 4.8
 Tested up to: 4.9.7
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,9 @@ A simple and minimal WordPress theme Deft is perfect for Bloggers. You can use t
 Deft includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+= 1.0.5 - August 14 2018 =
+* Screenshot Changed
+
 = 1.0.4 - July 09 2018 =
 * Reviewers issues fixed
 * Breadcrumb prefix added
@@ -72,6 +75,6 @@ Deft includes support for Infinite Scroll in Jetpack.
 
 
 == Image License == 
-https://www.pexels.com/photo/accessory-blur-book-close-up-290043/ [Creative Commons Zero (CC0) License]
+https://pixabay.com/en/glasses-lenses-reading-glasses-1934296/ [Creative Commons Zero (CC0) License]
 https://pixabay.com/en/woman-beautiful-lifestyle-young-3046960/ [Creative Commons Zero (CC0) License]
 https://pixabay.com/en/hand-man-watch-glasses-work-1076597/ [Creative Commons Zero (CC0) License]
